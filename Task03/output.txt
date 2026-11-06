@@ -1,0 +1,4 @@
+Vehicle registered: KA01AB1234
+Owner: Asha
+Vehicle type: CAR
+Error: Vehicle already registered: KA01AB1234

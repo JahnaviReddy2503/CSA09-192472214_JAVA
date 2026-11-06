@@ -1,0 +1,4 @@
+Error: Registration must contain 3-15 letters, digits or hyphens.
+Error: Vehicle already registered: KA01AB1234
+Error: Active ticket not found: T-9999
+Error: No available slot for CAR.

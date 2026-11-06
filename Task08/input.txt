@@ -1,0 +1,6 @@
+Generate parking report
+Show total slots
+Show occupied slots
+Show available slots
+Show daily revenue
+Show vehicle-wise fees

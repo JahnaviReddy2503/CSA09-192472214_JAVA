@@ -1,0 +1,6 @@
+Run duplicate-registration test
+Run parking entry and exit test
+Run monthly-pass test
+Run EV charging fee test
+Run delivery-van peak pricing test
+Run daily-revenue test

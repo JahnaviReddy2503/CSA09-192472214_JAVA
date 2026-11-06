@@ -1,0 +1,5 @@
+Electric vehicle: EV01
+Entry time: 2026-01-01 08:00
+Exit time: 2026-01-01 10:00
+Delivery van: VAN01
+Peak period: 10:00 to 12:00

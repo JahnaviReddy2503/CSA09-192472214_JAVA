@@ -1,0 +1,5 @@
+Floor 1 slots: 11
+Floor 2 slots: 14
+Floor 3 slots: 18
+Compatible slot allocated: F1-C1
+Slot released: F1-C1

@@ -1,0 +1,5 @@
+Vehicle registration: KA01AB1234
+Vehicle type: Car
+Parking floors: 1, 2, 3
+Allocate a compatible free slot
+Release the slot

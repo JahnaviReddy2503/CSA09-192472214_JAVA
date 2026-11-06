@@ -1,0 +1,4 @@
+User created: Asha (STUDENT, STU001)
+Vehicle created: KA01AB1234 - CAR - Asha
+Vehicle category: CAR
+Monthly pass eligible: yes

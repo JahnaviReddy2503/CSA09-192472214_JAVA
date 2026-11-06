@@ -1,0 +1,4 @@
+Vehicle registration: KA01AB1234
+Pass type: Monthly pass
+Valid until: 2026-12-31
+Parking duration: 2 hours

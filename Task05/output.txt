@@ -1,0 +1,5 @@
+Ticket generated: T-1001
+Allocated slot: F1-C1
+Parking duration: 120 minutes
+Parking fee: Rs. 80.00
+Receipt generated successfully

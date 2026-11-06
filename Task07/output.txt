@@ -1,0 +1,4 @@
+Electric-car parking fee: Rs. 130.00
+EV charging fee included: yes
+Delivery-van peak-time fee: Rs. 240.00
+Peak multiplier applied: 2x

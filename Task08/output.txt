@@ -1,0 +1,7 @@
+PARKING REPORT
+Total slots: 43
+Occupied slots: 1
+Available slots: 42
+Active tickets: 1
+Today's revenue: Rs. 40.00
+Vehicle-wise fees displayed

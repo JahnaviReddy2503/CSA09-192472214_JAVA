@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Administrator login
+Username: admin
+Password: admin123
+Open the parking dashboard

@@ -1,0 +1,6 @@
+Click Register vehicle
+Click Vehicle entry
+Click Vehicle exit
+Click Add pass
+Click Reports
+Click Refresh

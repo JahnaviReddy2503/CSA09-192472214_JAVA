@@ -1,0 +1,7 @@
+SAMPLE EXPECTED OUTPUT
+Maven build: SUCCESS
+Tests: PASSED
+JAR package: CREATED
+Git branch: main
+GitHub push: SUCCESS
+Repository: https://github.com/JahnaviReddy2503/CSA09-192472214_JAVA

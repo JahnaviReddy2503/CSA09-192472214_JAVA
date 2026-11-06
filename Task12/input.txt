@@ -1,0 +1,4 @@
+Build command: mvn clean test package
+Run command: java -jar target\campus-smart-parking-1.0.0.jar
+Git branch: main
+Push the completed project to GitHub

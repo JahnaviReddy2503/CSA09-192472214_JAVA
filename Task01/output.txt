@@ -1,0 +1,5 @@
+Administrator Login
+Username accepted: admin
+Password accepted
+Login successful
+Campus Smart-Parking System dashboard opened

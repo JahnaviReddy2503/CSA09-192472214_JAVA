@@ -1,0 +1,5 @@
+User ID: STU001
+Name: Asha
+User type: Student
+Vehicle registration: KA01AB1234
+Vehicle type: Car

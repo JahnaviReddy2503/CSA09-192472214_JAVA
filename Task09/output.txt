@@ -1,0 +1,6 @@
+Dashboard opened
+Vehicle registration completed
+Vehicle entry ticket generated
+Vehicle exit receipt displayed
+Parking slots refreshed
+Report displayed

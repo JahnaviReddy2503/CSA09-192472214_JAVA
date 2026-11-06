@@ -1,0 +1,10 @@
+SAMPLE EXPECTED OUTPUT
+duplicateRegistrationIsRejected: PASSED
+vehicleCanEnterAndExit: PASSED
+monthlyPassMakesFeeZero: PASSED
+evIncludesChargingFee: PASSED
+deliveryVanPeakRateDoubles: PASSED
+oneDayPassIsValidOnlyOnItsDate: PASSED
+zeroMinuteParkingUsesMinimumOneHour: PASSED
+dailyRevenueIncludesCompletedTickets: PASSED
+Tests completed successfully

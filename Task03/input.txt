@@ -1,0 +1,3 @@
+Register vehicle: KA01AB1234
+Owner: Asha
+Register the same vehicle again

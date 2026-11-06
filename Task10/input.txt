@@ -1,0 +1,4 @@
+Invalid registration: A
+Duplicate registration: KA01AB1234
+Unknown ticket: T-9999
+No compatible slot available
