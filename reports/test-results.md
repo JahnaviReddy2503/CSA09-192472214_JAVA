@@ -9,5 +9,8 @@ The test suite is defined in `src/test/java/parking/ParkingServiceTest.java`.
 | Monthly pass | `monthlyPassMakesFeeZero` | Not executed: Maven/JDK unavailable in the current environment |
 | EV charging fee | `evIncludesChargingFee` | Not executed: Maven/JDK unavailable in the current environment |
 | Delivery van peak pricing | `deliveryVanPeakRateDoubles` | Not executed: Maven/JDK unavailable in the current environment |
+| One-day visitor pass | `oneDayPassIsValidOnlyOnItsDate` | Not executed: Maven/JDK unavailable in the current environment |
+| Zero-minute parking | `zeroMinuteParkingUsesMinimumOneHour` | Not executed: Maven/JDK unavailable in the current environment |
+| Daily revenue | `dailyRevenueIncludesCompletedTickets` | Not executed: Maven/JDK unavailable in the current environment |
 
 Run `mvn test` after installing JDK 17+ and Maven 3.9+ to populate actual execution evidence. No test is claimed as passed here without execution.

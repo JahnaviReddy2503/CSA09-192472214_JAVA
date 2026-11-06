@@ -12,6 +12,7 @@ A Java 17 Swing application for managing a multi-floor university parking facili
 - Monthly and one-day pass model
 - Hourly rates, daily maximum, visitor passes and delivery-van peak pricing
 - Ticket generation, receipts, occupancy and daily revenue services
+- Swing dashboard with coloured slot indicators, pass management and reports
 - Input validation, duplicate detection and custom exceptions
 - JUnit 5 automated tests
 
@@ -31,9 +32,27 @@ java -jar target\campus-smart-parking-1.0.0.jar
 
 The application starts with a Swing dashboard. The demo vehicle `DEMO-001` is registered automatically.
 
+The administrator login is:
+
+```text
+Username: admin
+Password: admin123
+```
+
+The dashboard supports registering vehicles, vehicle entry and exit, monthly or
+one-day pass creation, registered-vehicle reports, occupancy reports, active
+ticket reports and daily revenue. Green slots are available, red slots are
+occupied, and blue slots are EV charging slots.
+
 ## Project structure
 
 `src\main\java\parking\model` contains entities and inheritance hierarchies. `service` contains use cases, `pricing` contains fee calculation, `ui` contains Swing screens, and `exception` contains explicit business errors. Tests are under `src\test\java`.
+
+## Test coverage
+
+The JUnit suite covers duplicate registration, vehicle entry and exit,
+monthly passes, one-day passes, zero-minute parking, EV charging fees,
+delivery-van peak pricing, and daily revenue. Run `mvn test` to execute it.
 
 ## OOP evidence
 

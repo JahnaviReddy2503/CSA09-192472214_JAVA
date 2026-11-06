@@ -24,12 +24,20 @@ public final class ParkingService {
         vehicles.put(vehicle.getRegistrationNumber(), vehicle);
     }
     public void addPass(ParkingPass pass) { passes.put(pass.getRegistrationNumber(), pass); }
+    public boolean hasValidPass(String registration, LocalDate date) {
+        ParkingPass pass = passes.get(registration.toUpperCase());
+        return pass != null && pass.isValid(date);
+    }
     public Collection<Vehicle> getVehicles() { return List.copyOf(vehicles.values()); }
     public Collection<ParkingTicket> getActiveTickets() { return List.copyOf(activeTickets.values()); }
+    public List<ParkingTicket> getCompletedTickets() { return List.copyOf(completedTickets); }
     public List<ParkingFloor> getFloors() { return List.copyOf(floors); }
     public long occupiedSlots() { return floors.stream().flatMap(f -> f.getSlots().stream()).filter(s -> !s.isAvailable()).count(); }
     public long totalSlots() { return floors.stream().mapToLong(f -> f.getSlots().size()).sum(); }
     public ParkingTicket park(String registration, LocalDateTime entry) throws ParkingException {
+        if (registration == null || registration.isBlank() || entry == null) {
+            throw new ParkingException("Registration and entry time are required.");
+        }
         Vehicle vehicle = vehicles.get(registration.toUpperCase());
         if (vehicle == null) throw new ParkingException("Vehicle is not registered.");
         if (activeTickets.values().stream().anyMatch(t -> t.getVehicle().equals(vehicle))) throw new ParkingException("Vehicle is already parked.");
@@ -42,15 +50,24 @@ public final class ParkingService {
         return ticket;
     }
     public ParkingTicket exit(String ticketId, LocalDateTime exit) throws TicketNotFoundException {
+        if (ticketId == null || ticketId.isBlank() || exit == null) {
+            throw new TicketNotFoundException(String.valueOf(ticketId));
+        }
         ParkingTicket ticket = activeTickets.remove(ticketId);
         if (ticket == null) throw new TicketNotFoundException(ticketId);
-        ParkingPass pass = passes.get(ticket.getVehicle().getRegistrationNumber());
-        double fee = pass != null && pass.isValid(exit.toLocalDate()) ? 0 : new FeeCalculator(ticket.getVehicle(), ticket.getEntryTime(), exit).calculate();
+        double fee = hasValidPass(ticket.getVehicle().getRegistrationNumber(), exit.toLocalDate())
+                ? 0 : new FeeCalculator(ticket.getVehicle(), ticket.getEntryTime(), exit).calculate();
         ticket.close(exit, fee);
         ticket.getSlot().release();
         completedTickets.add(ticket);
         return ticket;
     }
     public double dailyRevenue(LocalDate date) { return completedTickets.stream().filter(t -> t.getExitTime() != null && t.getExitTime().toLocalDate().equals(date)).mapToDouble(ParkingTicket::getFee).sum(); }
+    public Map<String, Double> feesByVehicle() {
+        Map<String, Double> result = new LinkedHashMap<>();
+        completedTickets.forEach(ticket -> result.merge(ticket.getVehicle().getRegistrationNumber(),
+                ticket.getFee(), Double::sum));
+        return result;
+    }
     public List<ParkingSlot> allSlots() { return floors.stream().flatMap(f -> f.getSlots().stream()).toList(); }
 }

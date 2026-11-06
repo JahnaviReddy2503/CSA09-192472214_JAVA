@@ -39,4 +39,30 @@ class ParkingServiceTest {
         DeliveryVan van = new DeliveryVan("VAN-1", student);
         assertEquals(240, new FeeCalculator(van, LocalDateTime.of(2026, 1, 1, 10, 0), LocalDateTime.of(2026, 1, 1, 12, 0)).calculate());
     }
+
+    @Test void oneDayPassIsValidOnlyOnItsDate() throws Exception {
+        ParkingService service = new ParkingService();
+        service.registerVehicle(new Car("ABC-4", new Visitor("V1", "Visitor")));
+        service.addPass(new OneDayPass("D1", "ABC-4", LocalDate.of(2026, 1, 1)));
+        ParkingTicket first = service.park("ABC-4", LocalDateTime.of(2026, 1, 1, 10, 0));
+        assertEquals(0, service.exit(first.getId(), LocalDateTime.of(2026, 1, 1, 11, 0)).getFee());
+        ParkingTicket second = service.park("ABC-4", LocalDateTime.of(2026, 1, 2, 10, 0));
+        assertEquals(40, service.exit(second.getId(), LocalDateTime.of(2026, 1, 2, 11, 0)).getFee());
+    }
+
+    @Test void zeroMinuteParkingUsesMinimumOneHour() throws Exception {
+        ParkingService service = new ParkingService();
+        service.registerVehicle(new Car("ABC-5", student));
+        ParkingTicket ticket = service.park("ABC-5", LocalDateTime.of(2026, 1, 1, 10, 0));
+        assertEquals(40, service.exit(ticket.getId(), LocalDateTime.of(2026, 1, 1, 10, 0)).getFee());
+    }
+
+    @Test void dailyRevenueIncludesCompletedTickets() throws Exception {
+        ParkingService service = new ParkingService();
+        service.registerVehicle(new Car("ABC-6", student));
+        ParkingTicket ticket = service.park("ABC-6", LocalDateTime.of(2026, 1, 1, 10, 0));
+        service.exit(ticket.getId(), LocalDateTime.of(2026, 1, 1, 11, 0));
+        assertEquals(40, service.dailyRevenue(LocalDate.of(2026, 1, 1)));
+        assertEquals(0, service.dailyRevenue(LocalDate.of(2026, 1, 2)));
+    }
 }

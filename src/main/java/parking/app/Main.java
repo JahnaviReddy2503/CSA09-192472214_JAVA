@@ -3,7 +3,7 @@ package parking.app;
 import parking.model.*;
 import parking.service.ParkingService;
 import parking.exception.ParkingException;
-import parking.ui.DashboardFrame;
+import parking.ui.LoginFrame;
 import javax.swing.*;
 
 public final class Main {
@@ -16,6 +16,6 @@ public final class Main {
         } catch (ParkingException | IllegalArgumentException ignored) {
             // Demo data is optional; the UI remains usable if it cannot be loaded.
         }
-        SwingUtilities.invokeLater(() -> new DashboardFrame(service).setVisible(true));
+        SwingUtilities.invokeLater(() -> new LoginFrame(service).setVisible(true));
     }
 }
