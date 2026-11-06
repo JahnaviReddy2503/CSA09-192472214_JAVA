@@ -1,3 +1,4 @@
 # Task 08 - Administration and reports
 
-Occupancy, active-ticket and revenue methods are available in `ParkingService`.
+The task folder contains the report-capable `ParkingService` and
+`ParkingTicket` source files in its `java` folder.

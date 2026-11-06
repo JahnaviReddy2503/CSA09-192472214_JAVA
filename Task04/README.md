@@ -1,3 +1,4 @@
 # Task 04 - Parking slot management
 
-`ParkingFloor`, `ParkingSlot` and `ParkingService` implement multi-floor allocation.
+The task folder contains `ParkingFloor`, `ParkingSlot`, `SlotType` and
+`NoAvailableSlotException` in its `java` folder.

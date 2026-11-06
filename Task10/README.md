@@ -1,3 +1,4 @@
 # Task 10 - Validation and exceptions
 
-Custom checked exceptions provide explicit operation failures.
+The task folder contains all four custom exception source files in its `java`
+folder.

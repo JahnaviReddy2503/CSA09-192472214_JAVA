@@ -1,3 +1,4 @@
 # Task 05 - Tickets and fees
 
-`ParkingTicket` and `FeeCalculator` implement entry, exit and pricing.
+The task folder contains `ParkingTicket`, `Chargeable`, `FeeCalculator` and
+`TicketNotFoundException` in its `java` folder.

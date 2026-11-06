@@ -1,3 +1,4 @@
 # Task 03 - Vehicle and user management
 
-Registration and duplicate validation are implemented by `ParkingService`.
+The task folder contains `ParkingService`, `ParkingException` and
+`DuplicateVehicleException` in its `java` folder.

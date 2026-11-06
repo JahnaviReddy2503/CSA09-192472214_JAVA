@@ -1,3 +1,4 @@
 # Task 02 - Object-oriented model
 
-See the abstract `Vehicle` and `User` classes and their concrete subclasses.
+The task folder contains the model source code in `java`, including `User`,
+`Student`, `Staff`, `Visitor`, `Vehicle` and `VehicleType`.

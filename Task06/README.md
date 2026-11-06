@@ -1,3 +1,4 @@
 # Task 06 - Parking passes
 
-`MonthlyPass` and `OneDayPass` provide date-based pass validation.
+The task folder contains `ParkingPass`, `MonthlyPass` and `OneDayPass` in its
+`java` folder.

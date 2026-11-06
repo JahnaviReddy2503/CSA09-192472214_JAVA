@@ -1,3 +1,4 @@
 # Task 11 - Testing
 
-JUnit tests cover duplicate registration, parking lifecycle, passes, EV fees and delivery pricing.
+The task folder contains the complete `ParkingServiceTest.java` JUnit source
+file in its `java` folder.
