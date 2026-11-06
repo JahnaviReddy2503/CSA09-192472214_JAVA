@@ -1,4 +1,4 @@
 # Task 11 - Testing
 
-The complete `ParkingServiceTest.java` JUnit source file is in
-`src\test\java\parking`.
+The task folder contains the complete `ParkingServiceTest.java` JUnit source
+file in its `java` folder.
