@@ -1,4 +1,3 @@
 # Task 02 - Object-oriented model
 
-The task folder contains the model source code in its `java` folder, including
-`User`, `Student`, `Staff`, `Visitor`, `Vehicle` and `VehicleType`.
+All Task 02 source code is collected in `java\Task02.java`.

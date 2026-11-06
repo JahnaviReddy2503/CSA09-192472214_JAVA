@@ -1,4 +1,3 @@
 # Task 06 - Parking passes
 
-The task folder contains `ParkingPass`, `MonthlyPass` and `OneDayPass` in its
-`java` folder.
+All Task 06 source code is collected in `java\Task06.java`.

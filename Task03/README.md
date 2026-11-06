@@ -1,4 +1,3 @@
 # Task 03 - Vehicle and user management
 
-The task folder contains `ParkingService`, `ParkingException` and
-`DuplicateVehicleException` in its `java` folder.
+All Task 03 source code is collected in `java\Task03.java`.

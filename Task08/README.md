@@ -1,4 +1,3 @@
 # Task 08 - Administration and reports
 
-The task folder contains the report-capable `ParkingService` and
-`ParkingTicket` source files in its `java` folder.
+All Task 08 source code is collected in `java\Task08.java`.

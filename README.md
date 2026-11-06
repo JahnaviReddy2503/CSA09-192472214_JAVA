@@ -48,10 +48,10 @@ occupied, and blue slots are EV charging slots.
 
 `src\main\java\parking\model` contains entities and inheritance hierarchies. `service` contains use cases, `pricing` contains fee calculation, `ui` contains Swing screens, and `exception` contains explicit business errors. Tests are under `src\test\java`.
 
-The `Task01` to `Task12` folders each contain actual `.java` source files in
-their `java` folder. The root `src\main\java` and `src\test\java` directories
-are the canonical Maven compilation tree; task-folder copies are provided for
-assignment submission and task-by-task inspection.
+The `Task01` to `Task12` folders each contain exactly one Java source bundle:
+`java\Task01.java` through `java\Task12.java`. The root `src\main\java` and
+`src\test\java` directories are the canonical Maven compilation tree; task
+bundles are provided for assignment submission and task-by-task inspection.
 
 ## Test coverage
 

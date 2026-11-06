@@ -1,4 +1,3 @@
 # Task 05 - Tickets and fees
 
-The task folder contains `ParkingTicket`, `Chargeable`, `FeeCalculator` and
-`TicketNotFoundException` in its `java` folder.
+All Task 05 source code is collected in `java\Task05.java`.

@@ -1,4 +1,3 @@
 # Task 10 - Validation and exceptions
 
-The task folder contains all four custom exception source files in its `java`
-folder.
+All Task 10 source code is collected in `java\Task10.java`.

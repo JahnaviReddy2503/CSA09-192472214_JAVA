@@ -1,4 +1,3 @@
 # Task 09 - Swing interface
 
-The task folder contains the actual `DashboardFrame` and `LoginFrame` Swing
-source files in its `java` folder.
+All Task 09 source code is collected in `java\Task09.java`.

@@ -1,4 +1,3 @@
 # Task 11 - Testing
 
-The task folder contains the complete `ParkingServiceTest.java` JUnit source
-file in its `java` folder.
+All Task 11 source code is collected in `java\Task11.java`.
