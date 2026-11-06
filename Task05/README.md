@@ -1,4 +1,4 @@
 # Task 05 - Tickets and fees
 
-The task folder contains `ParkingTicket`, `Chargeable`, `FeeCalculator` and
-`TicketNotFoundException` in its `java` folder.
+`ParkingTicket`, `Chargeable`, `FeeCalculator` and `TicketNotFoundException`
+are in the root `src\main\java` source tree.

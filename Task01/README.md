@@ -1,8 +1,5 @@
 # Task 01 - Project architecture
 
-The task folder now contains executable project source files in `java`:
-
-- `java\Main.java`
-- `java\LoginFrame.java`
-
-The complete Maven source tree remains in the root `src` directory.
+The executable source is kept in the root `src\main\java` directory. See
+`src\main\java\parking\app\Main.java` and
+`src\main\java\parking\ui\LoginFrame.java`.

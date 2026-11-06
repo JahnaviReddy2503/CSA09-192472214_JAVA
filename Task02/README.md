@@ -1,4 +1,4 @@
 # Task 02 - Object-oriented model
 
-The task folder contains the model source code in `java`, including `User`,
+The model source code is in `src\main\java\parking\model`, including `User`,
 `Student`, `Staff`, `Visitor`, `Vehicle` and `VehicleType`.

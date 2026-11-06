@@ -1,4 +1,4 @@
 # Task 04 - Parking slot management
 
-The task folder contains `ParkingFloor`, `ParkingSlot`, `SlotType` and
-`NoAvailableSlotException` in its `java` folder.
+`ParkingFloor`, `ParkingSlot`, `SlotType` and `NoAvailableSlotException` are
+in the root `src\main\java` source tree.
