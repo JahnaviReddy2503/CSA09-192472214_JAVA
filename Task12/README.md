@@ -1,3 +1,5 @@
 # Task 12 - Submission
 
-All Task 12 source code is collected in `java\Task12.java`.
+The task folder contains one complete source file, `Task12.java`, including
+the final application entry point. Use the Git commands in the root README to
+submit the project.

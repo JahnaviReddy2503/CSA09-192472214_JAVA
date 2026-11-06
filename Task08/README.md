@@ -1,3 +1,4 @@
 # Task 08 - Administration and reports
 
-All Task 08 source code is collected in `java\Task08.java`.
+The task folder contains one complete source file, `Task08.java`, including
+administration and report code.

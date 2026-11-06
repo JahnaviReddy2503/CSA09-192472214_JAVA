@@ -1,7 +1,4 @@
 # Task 01 - Project architecture
 
-All Task 01 source code is collected in one file:
-
-`java\Task01.java`
-
-The complete compilable Maven source tree remains in the root `src` directory.
+The task folder contains one complete source file: `Task01.java`.
+The complete Maven source tree remains in the root `src` directory.

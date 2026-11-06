@@ -1,3 +1,4 @@
 # Task 10 - Validation and exceptions
 
-All Task 10 source code is collected in `java\Task10.java`.
+The task folder contains one complete source file, `Task10.java`, including
+all validation and exception code.

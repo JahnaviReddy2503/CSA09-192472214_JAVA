@@ -1,3 +1,4 @@
 # Task 07 - EV and delivery pricing
 
-All Task 07 source code is collected in `java\Task07.java`.
+The task folder contains one complete source file, `Task07.java`, including
+EV and delivery-van pricing code.

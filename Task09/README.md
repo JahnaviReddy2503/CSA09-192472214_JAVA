@@ -1,3 +1,4 @@
 # Task 09 - Swing interface
 
-All Task 09 source code is collected in `java\Task09.java`.
+The task folder contains one complete source file, `Task09.java`, including
+the Swing dashboard and login code.

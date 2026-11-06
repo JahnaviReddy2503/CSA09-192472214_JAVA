@@ -1,3 +1,4 @@
 # Task 05 - Tickets and fees
 
-All Task 05 source code is collected in `java\Task05.java`.
+The task folder contains one complete source file, `Task05.java`, including
+ticket and pricing code.

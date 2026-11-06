@@ -1,3 +1,4 @@
 # Task 11 - Testing
 
-All Task 11 source code is collected in `java\Task11.java`.
+The task folder contains one complete source file, `Task11.java`, including
+the test runner code.

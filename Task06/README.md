@@ -1,3 +1,4 @@
 # Task 06 - Parking passes
 
-All Task 06 source code is collected in `java\Task06.java`.
+The task folder contains one complete source file, `Task06.java`, including
+monthly and one-day pass code.

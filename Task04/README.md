@@ -1,3 +1,4 @@
 # Task 04 - Parking slot management
 
-All Task 04 source code is collected in `java\Task04.java`.
+The task folder contains one complete source file, `Task04.java`, including
+floor, slot and allocation code.

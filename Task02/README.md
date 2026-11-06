@@ -1,3 +1,4 @@
 # Task 02 - Object-oriented model
 
-All Task 02 source code is collected in `java\Task02.java`.
+The task folder contains one complete source file, `Task02.java`, including
+the user and vehicle model code.
